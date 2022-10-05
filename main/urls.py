@@ -11,7 +11,6 @@ from .views import (
     LoginView,
     RegistrationView,
     ProfileView,
-    ProductListView1,
     TestListView
 )
 
