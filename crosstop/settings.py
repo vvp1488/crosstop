@@ -12,7 +12,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crosstopnew.herokuapp.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['crosstop1.herokuapp.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -70,7 +70,7 @@ DATABASES = {
         'NAME': env('DATABASE_NAME'),
         'USER' : env('DATABASE_USER'),
         'PASSWORD': env('DATABASE_PASS'),
-        'HOST' : 'ec2-99-80-170-190.eu-west-1.compute.amazonaws.com',
+        'HOST' : 'ec2-63-32-248-14.eu-west-1.compute.amazonaws.com',
         'PORT' : 5432
     }
 }
