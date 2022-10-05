@@ -1,1 +1,1 @@
-web: gunicorn django_movies.wsgi
+web: gunicorn crosstop.wsgi
